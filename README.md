@@ -21,3 +21,8 @@ If you are a developer, you will be able to sign up as such, and then be able to
 
 Finally, users will be able to log into the application using their Facebook login authentication.
 
+### Credits
+
+[Django Documentation](https://docs.djangoproject.com/en/3.0/).
+The [Udemy Course](https://www.udemy.com/course/complete-django-masterclass/) that was most heavily relied upon for this project. I also borrowed pretty quite a lot of ideas from another [Udemy Course](https://www.udemy.com/course/web-software-development-with-django-game-store-app/). And as such, I would like to particularly thank both of those teachers on Udemy for their course work that assisted me in building this application.
+
