@@ -16,8 +16,9 @@ def get_games(request):
         return HttpResponse(str(game.title) + " $" + str(game.price))
 
 
-# This test function uses the path that calls the 'shop' subfolder to get index.html file
-# I then altered this to point to the base.html file
+# This test function uses the path that calls the 'shop' subfolder to get relevant files
+# I have used it multiple times by changing the path to test all my new templates
 def get_html(request):
+    games = ["Pacman", "GTA", "Hitman"]
     if request.method == 'GET':
-        return render(request, 'shop/base.html')
+        return render(request, 'shop/login.html', {"games": games})
