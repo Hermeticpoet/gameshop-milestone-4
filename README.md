@@ -32,15 +32,16 @@ I tested the base.html route and rendering. There is a screenshot of this test i
 
 ## Technologies Used
 
-* [HTML5]()
-* [CSS3]()
-* [SASS]()
-* [FONT AWESOME5]
-* [DJANGO 3.0]()
-* [BULMA FRAMEWORK]()
-* [HEROKU]
-* [SUBLIME TEXT3]()
-* [SQLITE3]()
+* [HTML5](https://www.w3.org/TR/html52/)
+* [CSS3](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
+* [SASS](https://sass-lang.com/)
+* [FONT AWESOME5](https://fontawesome.com/start)
+* [DJANGO 3.0](https://docs.djangoproject.com/en/3.0/releases/3.0/)
+* [BULMA FRAMEWORK](https://bulma.io/)
+* [HEROKU](https://devcenter.heroku.com/categories/reference)
+* [SUBLIME TEXT3](https://www.sublimetext.com/docs/3/)
+* [SQLITE3](https://www.sqlite.org/docs.html)
+* [GUNICORN](https://docs.gunicorn.org/en/stable/settings.html)
 
 ### Credits
 
