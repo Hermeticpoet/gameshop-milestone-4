@@ -21,6 +21,10 @@ If you are a developer, you will be able to sign up as such, and then be able to
 
 Finally, users will be able to log into the application using their Facebook login authentication.
 
+## Build Requirements
+
+Django provides the scaffolding of the application. We are simply required to 'fill it out'. For instance, our templates folder must contain a subfolder with the same name as our app folder - 'shop', in my case, so that Django knows where to find all the correct templates for the application.
+
 ### Credits
 
 [Django Documentation](https://docs.djangoproject.com/en/3.0/).

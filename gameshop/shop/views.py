@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from shop.models import Game
 
 
 # Home route function
@@ -15,3 +16,7 @@ def get_games(request):
         return HttpResponse(str(game.title) + " $" + str(game.price))
 
 
+# This test function uses the path that calls the 'shop' subfolder to get index.html file
+def get_html(request):
+    if request.method == 'GET':
+        return render(request, 'shop/index.html')
