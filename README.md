@@ -25,6 +25,8 @@ Finally, users will be able to log into the application using their Facebook log
 
 Django provides the scaffolding of the application. We are simply required to 'fill it out'. For instance, our templates folder must contain a subfolder with the same name as our app folder - 'shop', in my case, so that Django knows where to find all the correct templates for the application.
 
+I have used the `{% load static %}` logic in order to pull the relevant data from the static folder into the base.html file so it can be used throughout the application. 
+
 ### Credits
 
 [Django Documentation](https://docs.djangoproject.com/en/3.0/).
