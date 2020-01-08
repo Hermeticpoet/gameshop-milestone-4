@@ -3,4 +3,8 @@ from . import views
 
 app_name = 'shop'
 
-urlpatterns = []
+urlpatterns = [
+    path('', views.index, name='index'),
+    path('games', views.get_games, name='games'),
+
+]
