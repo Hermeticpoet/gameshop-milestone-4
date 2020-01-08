@@ -21,11 +21,26 @@ If you are a developer, you will be able to sign up as such, and then be able to
 
 Finally, users will be able to log into the application using their Facebook login authentication.
 
-## Build Requirements
+## Build Process
 
 Django provides the scaffolding of the application. We are simply required to 'fill it out'. For instance, our templates folder must contain a subfolder with the same name as our app folder - 'shop', in my case, so that Django knows where to find all the correct templates for the application.
 
-I have used the `{% load static %}` logic in order to pull the relevant data from the static folder into the base.html file so it can be used throughout the application. 
+I have used the `{% load static %}` logic in order to pull the relevant data from the static folder into the base.html file so it can be used throughout the application. Then some simple link references can be used to point to the as needed code, including the 'bulma.css' framework. 
+
+I tested the base.html route and rendering. There is a screenshot of this test in the images folder under filename: [base-html-test.png](gameshop/shop/static/shop/images/base-html-test.png).
+
+
+## Technologies Used
+
+* [HTML5]()
+* [CSS3]()
+* [SASS]()
+* [FONT AWESOME5]
+* [DJANGO]()
+* [BULMA FRAMEWORK]()
+* [HEROKU]
+* [SUBLIME TEXT3]()
+* [SQLITE3]()
 
 ### Credits
 

@@ -17,6 +17,7 @@ def get_games(request):
 
 
 # This test function uses the path that calls the 'shop' subfolder to get index.html file
+# I then altered this to point to the base.html file
 def get_html(request):
     if request.method == 'GET':
-        return render(request, 'shop/index.html')
+        return render(request, 'shop/base.html')
