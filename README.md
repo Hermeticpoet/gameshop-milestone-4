@@ -36,7 +36,7 @@ I tested the base.html route and rendering. There is a screenshot of this test i
 * [CSS3]()
 * [SASS]()
 * [FONT AWESOME5]
-* [DJANGO]()
+* [DJANGO 3.0]()
 * [BULMA FRAMEWORK]()
 * [HEROKU]
 * [SUBLIME TEXT3]()
