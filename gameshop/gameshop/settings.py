@@ -25,7 +25,8 @@ SECRET_KEY = 'd@fj4v4lnsjhycbuc*8r24*l)q8#06%@%dxb5&%4(gn7k=a_*8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# Used * so that for now, any host can run the files
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -118,4 +119,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+# Where to find the static files
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# Where the server is to store those files
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 STATIC_URL = '/static/'
+# The directory that is being used to host static files
+STATICFILES_DIRS = os.path.join(BASE_DIR, 'shop/static')
